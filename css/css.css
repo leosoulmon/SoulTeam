@@ -1,0 +1,34 @@
+/* CORES DE FUNDO*//* CORES DE FUNDO*//* CORES DE FUNDO*//* CORES DE FUNDO*/
+.blue-st{
+  background-color:#1b325f;
+}
+.light-blue-st{
+  background-color:#3a89c9;
+}
+.orange-st{
+  background-color:#f26c4f;
+}
+.yellow-st-text{
+  background-color:#f7b856;
+}
+/*CORES DO TEXTO*//*CORES DO TEXTO*//*CORES DO TEXTO*//*CORES DO TEXTO*/
+.blue-st-text{
+  color:#1b325f;
+}
+.light-blue-st-text{
+  color:#3a89c9;
+}
+.orange-st-text{
+  color:#f26c4f;
+}
+.yellow-st-text{
+  color:#f7b856;
+}
+
+@media only screen and (max-width : 992px) {
+  
+}
+
+@media only screen and (max-width : 600px) {
+  
+}
