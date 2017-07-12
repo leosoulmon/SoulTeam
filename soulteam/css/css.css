@@ -36,11 +36,19 @@ main > section{
 .mail-icon{
   vertical-align: -6px;
 }
+.tit-servico-info{
+  font-weight: bold;
+  font-size: 2rem;
+}
+.info-sobre-font{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
 
-@media only screen and (max-width : 992px) {
+/*@media only screen and (max-width : 992px) {
 
 }
 
 @media only screen and (max-width : 600px) {
 
-}
+}*/

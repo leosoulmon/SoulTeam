@@ -59,18 +59,54 @@
     <section class="inicio scrollspy light-blue-st" id="inicio">
       <div class="container">
         <h1 class="center white-text pg-title">Soluções que sua empresa precisa!</h1>
+        <div class="row">
+          <img src="img/img-introcucao.png" alt="imagem de introduação a empresa" class="img-intro-info responsive-img" id="img-intro-info" >
+        </div>
       </div>
     </section>
     <!-- SOBRE -->
     <section class="sobre scrollspy blue-grey lighten-3" id="sobre">
       <div class="container">
         <h1 class="left-align blue-text text-darken-4 pg-title">Quem somos</h1>
+        <div class="row">
+          <div class="col l5 m5 s12">
+            <img src="img/img-sobre.png" alt="imagem da pagina de sobre" class="img-sobre-info responsive-img" id="img-sobre-info">
+          </div>
+          <div class="col l5 m5 s12 offset-l2 offset-m2 blue-text text-darken-4 info-sobre-font">
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+          </div>
+        </div>
       </div>
     </section>
     <!-- SERVIÇOS -->
-    <section class="servicos scrollspy orange-st" id="servicos">
+    <section class="servicos scrollspy orange-st white-text" id="servicos">
       <div class="container">
-        <h1 class="left-align white-text pg-title">Serviços</h1>
+        <h1 class="left-align pg-title">Serviços</h1>
+        <div class="row">
+          <div class="col l5 m5 s12 center">
+            <img src="img/img-servico-dev.png" alt="imagem da pagina de servico" class="img-servico-info responsive-img" id="img-servico-info">
+            <h2 class="tit-servico-info">Desenvolvimento Web</h2>
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+          </div>
+          <div class="col l5 m5 s12 offset-l1 offset-m2 center">
+            <img src="img/img-servico-design.png" alt="imagem da pagina de servico" class="img-servico-info responsive-img" id="img-servico-info">
+            <h2 class="tit-servico-info">Design Gráfico</h2>
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+          </div>
+        </div>
       </div>
     </section>
     <!-- CONTATO -->
