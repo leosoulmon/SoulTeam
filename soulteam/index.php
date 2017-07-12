@@ -68,7 +68,7 @@
     <section class="sobre scrollspy blue-grey lighten-3" id="sobre">
       <div class="container">
         <h1 class="left-align blue-text text-darken-4 pg-title">Quem somos</h1>
-        <div class="row">
+        <div class="row valign-wrapper hide-on-med-and-down">
           <div class="col l5 m5 s12">
             <img src="img/img-sobre.png" alt="imagem da pagina de sobre" class="img-sobre-info responsive-img" id="img-sobre-info">
           </div>
@@ -85,6 +85,24 @@
             Lorem ipsum dolor sit, consectur adispicing elit.
           </div>
         </div>
+        <div class="row hide-on-large-only">
+          <div class="col m12 s12 center">
+            <img src="img/img-sobre.png" alt="imagem da pagina de sobre" class="responsive-img img-sobre-info-med" id="img-sobre-info-med">
+          </div>
+          <div class="col l5 m12 s12 offset-l2 blue-text text-darken-4 info-sobre-font">
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+            Lorem ipsum dolor sit, consectur adispicing elit.
+          </div>
+        </div>
+
       </div>
     </section>
     <!-- SERVIÇOS -->

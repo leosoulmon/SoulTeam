@@ -44,6 +44,12 @@ main > section{
   font-weight: bold;
   font-size: 1.2rem;
 }
+.img-sobre-info{
+  min-width: 425px;
+}
+.img-sobre-info-med{
+  max-width:750px;
+}
 
 /*@media only screen and (max-width : 992px) {
 
