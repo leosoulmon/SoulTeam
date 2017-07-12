@@ -15,42 +15,42 @@
 </head>
 <body>
   <header>
-    <nav class="navbar-fixed blue-grey darken-4 white-text" role="navigation">
+    <nav class="navbar-fixed blue-grey darken-4 white-text scrollspy" role="navigation" id="menu">
       <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo">
+        <a id="logo-container" href="#" class="brand-logo  left">
           <!-- <span class="orange-st-text">S</span>oul Te<span class="orange-st-text">a</span>m -->
           <img src="img/logo-st.png" alt="Logo da empresa Soul Team" class="logo-st responsive-img" id="logo-st">
         </a>
         <ul class="right hide-on-med-and-down">
           <li>
-            <a href="#">Sobre</a>
+            <a href="#sobre">Sobre</a>
           </li>
           <li>
-            <a href="#">Serviços</a>
+            <a href="#servicos">Serviços</a>
           </li>
-          <li>
+          <!-- <li>
             <a href="#">Portifolio</a>
-          </li>
+          </li> -->
           <li>
-            <a href="#">Contato</a>
+            <a href="#contato">Contato</a>
           </li>
         </ul>
 
         <ul id="nav-mobile" class="side-nav">
           <li>
-            <a href="#">Sobre</a>
+            <a href="#sobre">Sobre</a>
           </li>
           <li>
-            <a href="#">Serviços</a>
+            <a href="#servicos">Serviços</a>
           </li>
-          <li>
+          <!-- <li>
             <a href="#">Portifolio</a>
-          </li>
+          </li> -->
           <li>
-            <a href="#">Contato</a>
+            <a href="#contato">Contato</a>
           </li>
         </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
       </div>
     </nav>
   </header>
@@ -59,8 +59,8 @@
     <section class="inicio scrollspy light-blue-st" id="inicio">
       <div class="container">
         <h1 class="center white-text pg-title">Soluções que sua empresa precisa!</h1>
-        <div class="row">
-          <img src="img/img-introcucao.png" alt="imagem de introduação a empresa" class="img-intro-info responsive-img" id="img-intro-info" >
+        <div class="row center">
+          <img src="img/img-intro.png" alt="imagem de introduação a empresa" class="img-intro-info responsive-img" id="img-intro-info" >
         </div>
       </div>
     </section>
@@ -172,6 +172,11 @@
         </form>
       </div>
     </section>
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large blue-grey darken-4" href="#menu">
+        <i class="material-icons">keyboard_arrow_up</i>
+      </a>
+    </div>
   </main>
   <footer class="page-footer blue-grey darken-4 white-text">
     <div class="container">
@@ -214,6 +219,8 @@
         </div>
         <div class="col l2 s12">
           <h5 class="">Rede Sociais</h5>
+          <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
         </div>
       </div>
     </div>

@@ -50,6 +50,13 @@ main > section{
 .img-sobre-info-med{
   max-width:750px;
 }
+.btn-floating{
+  border: solid white 1px;
+}
+.btn-floating > .material-icons{
+  font-size: 3rem;
+  color: #f26c4f;
+}
 
 /*@media only screen and (max-width : 992px) {
 
